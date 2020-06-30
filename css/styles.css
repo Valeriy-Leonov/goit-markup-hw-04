@@ -120,17 +120,24 @@ ul {
 .button-icon-envelope {
   width: 16px;
   height: 11.2px;
+  fill: var(--akcent);
 }
 
 .button-icon-smartphone {
   width: 10px;
   height: 14.94px;
+  fill: var(--akcent);
+}
+
+.button-icon {
+  width: 70px;
+  height: 70px;
 }
 
 .site-nav-contact {
   width: 333px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;`
   padding: initial;
   margin-top: 32px;
   margin-bottom: 32px;
