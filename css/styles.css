@@ -108,6 +108,25 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+
+.actions {
+  display: flex;
+  align-items: center
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.button-icon-envelope {
+  width: 16px;
+  height: 11.2px;
+}
+
+.button-icon-smartphone {
+  width: 10px;
+  height: 14.94px;
+}
+
 .site-nav-contact {
   width: 333px;
   display: flex;
