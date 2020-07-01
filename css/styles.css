@@ -182,8 +182,26 @@ background-color: var(--akcent);
 .button-icon-client:focus {
   border: 1px solid var(--akcent);
   fill: var(--akcent);
-  
   }
+
+  .button-icon-social-footer {
+width: 44px;
+height: 44px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+border: none;
+fill:var(--white-text-color);
+background: rgba(255, 255, 255, 0.1);
+}
+
+.button-icon-social-footer:hover,
+.button-icon-social-footer:focus
+ {
+   fill: var(--white-text-color);
+background-color: var(--akcent);
+}
 
  .site-nav-contact {
   width: 333px;
