@@ -152,7 +152,7 @@ justify-content: center;
 align-items: center;
 border-radius: 50%;
 border: none;
-fill: var(--secondary-text-color);
+fill: #AFB1B8;
 }
 
 .button-icon-social:hover,
@@ -175,7 +175,7 @@ background-color: var(--akcent);
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-  fill: var(--secondary-text-color);
+  fill: #AFB1B8;
   
 }
 .button-icon-client:hover,
@@ -185,14 +185,7 @@ background-color: var(--akcent);
   
   }
 
-  .button-icon-client-svg {
-  fill: var(--secondary-text-color);
- }
-
-
-
-
-.site-nav-contact {
+ .site-nav-contact {
   width: 333px;
   display: flex;
   justify-content: space-between;`
