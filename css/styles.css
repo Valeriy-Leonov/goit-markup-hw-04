@@ -278,6 +278,7 @@ background-color: var(--akcent);
 .flex-container-partfolio {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .flex-button-portfolio {
@@ -665,14 +666,7 @@ margin-top: 16px;
   border: 1px solid #ececec;
 }
 
-.content-partfolio {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
-.button-partfolio-first {
+.button-partfolio {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -680,17 +674,22 @@ margin-top: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
-}
-
-.button-partfolio {
+  color: var(--primary-text-color);
   width: 73px;
   height: 38px;
-  background: #2196f3;
+  background-color: var(--button-second);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   border: 0;
+}
+.button-partfolio:hover,
+.button-partfolio:focus
+ {
+   color: var(--white-text-color);
+   background-color: var(--akcent);
+  
+  
 }
 
 .button-second-partfolio {
@@ -704,7 +703,17 @@ margin-top: 16px;
   height: 38px;
   border-radius: 4px;
   text-align: center;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
   border: 0;
+}
+
+.button-second-partfolio:hover,
+button-second-partfolio:focus {
+  color: var(--white-text-color);
+  background-color: var(--akcent);
+  
 }
 
 /* partfolio-text-title */

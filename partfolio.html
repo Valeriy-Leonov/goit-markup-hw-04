@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-markup-hw-03</title>
+    <title>goit-markup-hw-04</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -14,8 +14,9 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <div class="box-container-partfolio">
-    <body class="page">
+
+  <body class="page">
+    <div class="box-container-partfolio">
       <!--шапка-->
       <header>
         <div class="page-header">
@@ -31,71 +32,60 @@
           </nav>
           <ul class="site-nav-contact">
             <li>
-              <a href="mailto:info@example.com" class="item-center">
-                <img
-                  src="images/envelope(hover).svg"
-                  alt=""
-                  class="envelope"
-                />info@devstudio.com</a
-              >
+              <svg class="button-icon-envelope">
+                <use href="./images/symbol-defs.svg#envelope"></use>
+              </svg>
+              <a href="mailto:info@example.com">info@devstudio.com</a>
             </li>
             <li>
-              <a href="tel:+380991111111" class="item-center"
-                ><img
-                  src="images/smartphone(hover).svg"
-                  alt=""
-                  class="smartphone"
-                />+38 096 111 11 11</a
-              >
+              <svg class="button-icon-smartphone">
+                <use href="./images/symbol-defs.svg#smartphone"></use>
+              </svg>
+              <a href="tel:+380991111111">+38 096 111 11 11</a>
             </li>
           </ul>
         </div>
         <div class="line3"></div>
       </header>
-      <main class="content-partfolio">
+
+      <main>
         <!--навигация-->
         <section>
-          <div class="flex-button-portfolio">
-            <div>
-              <li>
-                <button type="button" class="button-partfolio">
-                  <a href="" class="button-partfolio-first">Все</a>
-                </button>
-              </li>
-            </div>
-            <div>
-              <li>
-                <button type="button" class="button-second-partfolio">
-                  Веб-сайты
-                </button>
-              </li>
-            </div>
-            <div>
-              <li>
-                <button type="button" class="button-second-partfolio">
-                  Приложения
-                </button>
-              </li>
-            </div>
-            <div>
-              <li>
-                <button type="button" class="button-second-partfolio">
-                  Дизайн
-                </button>
-              </li>
-            </div>
-            <div>
-              <li>
-                <button type="button" class="button-second-partfolio">
-                  Маркетинг
-                </button>
-              </li>
-            </div>
-          </div>
+          <ul class="flex-button-portfolio">
+            <li>
+              <button type="button" class="button-partfolio">
+                Все
+              </button>
+            </li>
+
+            <li>
+              <button type="button" class="button-second-partfolio">
+                Веб-сайты
+              </button>
+            </li>
+
+            <li>
+              <button type="button" class="button-second-partfolio">
+                Приложения
+              </button>
+            </li>
+
+            <li>
+              <button type="button" class="button-second-partfolio">
+                Дизайн
+              </button>
+            </li>
+
+            <li>
+              <button type="button" class="button-second-partfolio">
+                Маркетинг
+              </button>
+            </li>
+          </ul>
           <!--наши работы-->
-          <div class="flex-container-partfolio">
-            <div class="flex-element-partfolio">
-              <li class="size-card-partfolio">
+          <div>
+            <ul class="flex-container-partfolio">
+              <li class="flex-element-partfolio">
                 <a href="">
                   <img
                     src="images/partfolio1.jpg"
@@ -107,9 +97,8 @@
                   <p class="partfolio-text-title">Веб-сайт</p>
                 </a>
               </li>
-            </div>
-            <div class="flex-element-partfolio">
-              <li>
+
+              <li class="flex-element-partfolio">
                 <a href="">
                   <img
                     src="images/partfolio2.jpg"
@@ -123,9 +112,8 @@
                   <p class="partfolio-text-title">Дизайн</p>
                 </a>
               </li>
-            </div>
-            <div class="flex-element-partfolio">
-              <li>
+
+              <li class="flex-element-partfolio">
                 <a href="">
                   <img
                     src="images/partfolio3.jpg"
@@ -137,9 +125,8 @@
                   <p class="partfolio-text-title">Приложение</p>
                 </a>
               </li>
-            </div>
-            <div class="flex-element-partfolio">
-              <li>
+
+              <li class="flex-element-partfolio">
                 <a href="">
                   <img
                     src="images/partfolio4.jpg"
@@ -151,9 +138,8 @@
                   <p class="partfolio-text-title">Маркетинг</p>
                 </a>
               </li>
-            </div>
-            <div class="flex-element-partfolio">
-              <li>
+
+              <li class="flex-element-partfolio">
                 <a href="">
                   <img
                     src="images/partfolio5.jpg"
@@ -165,9 +151,8 @@
                   <p class="partfolio-text-title">Приложение</p>
                 </a>
               </li>
-            </div>
-            <div class="flex-element-partfolio">
-              <li>
+
+              <li class="flex-element-partfolio">
                 <a href="">
                   <img
                     src="images/partfolio6.jpg"
@@ -179,9 +164,8 @@
                   <p class="partfolio-text-title">Веб-сайт</p>
                 </a>
               </li>
-            </div>
-            <div class="flex-element-partfolio">
-              <li>
+
+              <li class="flex-element-partfolio">
                 <a href="">
                   <img
                     src="images/partfolio7.jpg"
@@ -193,9 +177,8 @@
                   <p class="partfolio-text-title">Дизайн</p>
                 </a>
               </li>
-            </div>
-            <div class="flex-element-partfolio">
-              <li>
+
+              <li class="flex-element-partfolio">
                 <a href="">
                   <img
                     src="images/partfolio8.jpg"
@@ -207,9 +190,8 @@
                   <p class="partfolio-text-title">Маркетинг</p>
                 </a>
               </li>
-            </div>
-            <div class="flex-element-partfolio">
-              <li>
+
+              <li class="flex-element-partfolio">
                 <a href="">
                   <img
                     src="images/partfolio9.jpg"
@@ -221,7 +203,7 @@
                   <p class="partfolio-text-title">Приложение</p>
                 </a>
               </li>
-            </div>
+            </ul>
           </div>
         </section>
       </main>
@@ -242,16 +224,32 @@
             <b class="footer-text">ПРИСОЕДИНЯЙТЕСЬ</b>
             <ul class="list-item">
               <li>
-                <a href=""><img src="images/instagram_footer.svg" alt="" /></a>
+                <a href="" class="button-icon-social-footer">
+                  <svg width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#instagram"></use>
+                  </svg>
+                </a>
               </li>
               <li>
-                <a href=""><img src="images/twitter_footer.svg" alt="" /></a>
+                <a href="" class="button-icon-social-footer">
+                  <svg width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#twitter"></use>
+                  </svg>
+                </a>
               </li>
               <li>
-                <a href=""><img src="images/facebook_footer.svg" alt="" /></a>
+                <a href="" class="button-icon-social-footer">
+                  <svg width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#facebook"></use>
+                  </svg>
+                </a>
               </li>
               <li>
-                <a href=""><img src="images/linkedin_footer.svg" alt="" /></a>
+                <a href="" class="button-icon-social-footer">
+                  <svg width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
@@ -259,6 +257,6 @@
         <div class="line2"></div>
         <p class="goit-developed">2020 | Developed by GoIT Students</p>
       </footer>
-    </body>
-  </div>
+    </div>
+  </body>
 </html>
