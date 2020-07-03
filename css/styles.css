@@ -78,21 +78,36 @@ ul {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-}
+ }
 
 .site-nav {
   display: flex;
   margin-left: 84px;
   margin-top: 32px;
-  margin-bottom: 32px;
   padding: initial;
   justify-content: space-between;
   width: 294px;
-  height: 16px;
   letter-spacing: 0.02em;
 }
-.link.current {
+  .link-current {
+  position: relative;
   color: var(--akcent);
+
+}
+.link-current::after {
+  content: "";
+  width: 100%;
+  background: var(--akcent);
+  border-radius: 2px;
+  height: 4px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.link.current1 {
+  color: var(--akcent);
+
 }
 .site-nav :hover,
 .site-nav :focus {
